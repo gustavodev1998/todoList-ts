@@ -1,0 +1,119 @@
+/* Novas tasks */
+.newTask {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  top: -25px;
+  margin-bottom: 4rem;
+}
+
+.newTask input {
+  width: 39.875rem;
+  height: 3.375rem;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 1rem;
+
+  border: none;
+  background: var(--gray-500);
+  color: var(--gray-100);
+}
+
+.newTask button {
+  width: 5.625rem;
+  height: 3.25rem;
+  padding: 1rem;
+
+  background: var(--gray-500);
+  background-color: var(--dark-blue);
+  color: var(--gray-100);
+
+  font-size: 0.875rem;
+  font-weight: bold;
+
+  border: none;
+  border-radius: 0.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newTask button span {
+  display: flex;
+}
+
+.newTask button span svg {
+  margin-left: 0.5rem;
+  height: 100%;
+}
+
+/* TASKS  */
+.tasksContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: auto;
+  max-width: 46rem;
+}
+
+.tasksHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 1.5rem;
+}
+
+.createdTasks {
+  color: var(--blue);
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.finishedTasks {
+  color: var(--purple);
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.counter {
+  width: 1.5625rem;
+  height: 1.1875rem;
+  margin-left: 0.5rem;
+
+  padding: 0.125rem 0.5rem;
+  border-radius: 1rem;
+
+  font-weight: bold;
+  font-size: 0.75rem;
+  color: var(--gray-200);
+  background-color: var(--gray-400);
+}
+
+.emptyTasks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  border-top: 1px solid var(--gray-400);
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.emptyTasks img {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.emptyTasks p {
+  font-weight: bold;
+}
+
+.emptyTasks p,
+.emptyTasks span {
+  color: var(--gray-300);
+}
