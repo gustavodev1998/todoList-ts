@@ -1,4 +1,4 @@
-import { ChangeEvent, useState } from "react";
+import { ChangeEvent, useEffect, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 
 import styles from "./index.module.css";
@@ -126,7 +126,7 @@ export function TaskManager() {
       </div>
 
       {/* Caso não exista tasks */}
-      {allTasks.length < 0 && (
+      {allTasks.length <= 0 && (
         <div className={styles.emptyTasks}>
           <img src={clipboard} alt="clipboard" />
           <p>Você ainda não tem tarefas cadastradas</p>
