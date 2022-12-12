@@ -34,7 +34,7 @@ $ npm run dev
 ```
 
 ## :link: Vercel
-To check it out acess: <a target="_blank" href="https://01-fundamentos-reactjs-ts-mddy.vercel.app/">Web site</a>
+To check it out acess: <a target="_blank" href="https://todo-list-ts-one.vercel.app/">Web site</a>
 
 ## 🔖 Layout
 
